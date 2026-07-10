@@ -10,7 +10,7 @@ from datetime import datetime
 # 모델 불러오기
 @st.cache_resource
 def load_model():
-    return joblib.load("solar_model.pkl")
+    return joblib.load("solar_model(6).pkl")
 
 
 model = load_model()
